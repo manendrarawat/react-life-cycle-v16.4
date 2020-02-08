@@ -24,13 +24,13 @@ Initial Rendering Phase (Mount Phase)
    Unmounting Phase
 10. componentWillUnmount
 
-Depreceated methods in v16.4.0
+#### Depreceated methods in v16.4.0
 
 1. componentWillMount => getDrivedStateFromPropss
 2. componentWillReceiveProps => getDrivedStateFromProps
 3. componentWillUpdate => getSnapshotBeforeUpdate
 
-New Component life cycle methods
+#### New Component life cycle methods
 Initial Rendering Phase (Mount Phase)
 
 1. constructor
