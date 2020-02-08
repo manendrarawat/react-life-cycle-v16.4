@@ -1,11 +1,13 @@
-Q. What are the different phases of React component’s lifecycle?
+### Q. What are the different phases of React component’s lifecycle?
+
 There are three different phases of React component’s lifecycle:
 
 1. Initial Rendering Phase: This is the phase when the component is about to start its life journey and make its way to the DOM.
 2. Updating Phase: Once the component gets added to the DOM, it can potentially update and re-render only when a prop or state change occurs. That happens only in this phase.
 3. Unmounting Phase: This is the final phase of a component’s life cycle in which the component is destroyed and removed from the DOM.
 
-Q. Explain the lifecycle methods of React components in detail?
+### Q. Explain the lifecycle methods of React components in detail?
+
 Old Component life cycle methods
 Initial Rendering Phase (Mount Phase)
 
@@ -44,8 +46,10 @@ Initial Rendering Phase (Mount Phase)
    Unmounting Phase
 10. componentWillUnmount
 
-static getDrivedStateFromProps()
+### static getDrivedStateFromProps()
+
 This method is replacement of componentWillRecieveProps which is going to deprecated soon. it is run right after constructor. It has role in inital render as well as in rerender.
 
-Q. Why getDrivedStateFromProps method is static?
+### Q. Why getDrivedStateFromProps method is static?
+
 Ans. Because we don’t want user to use this keyword inside it. Since static method are class method not instance method we don’t need this keyword to access this method. As the name suggest this method return new state based on props action. So it will protect you from doing all kind of mistake like this.setState inside this method.
