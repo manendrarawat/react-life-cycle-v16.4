@@ -1,4 +1,4 @@
-Q. What are the different phases of React component’s lifecycle?
+###Q. What are the different phases of React component’s lifecycle?
 There are three different phases of React component’s lifecycle:
 
 1. Initial Rendering Phase: This is the phase when the component is about to start its life journey and make its way to the DOM.
