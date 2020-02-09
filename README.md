@@ -15,12 +15,14 @@ Initial Rendering Phase (Mount Phase)
 2. componentWillMount
 3. render
 4. componentDidMount
+
    Updating Phase
 5. componentWillRecieveProps
 6. shouldComponentUpdate
 7. componentWillUpdate
 8. render
 9. componentDidUpdate
+
    Unmounting Phase
 10. componentWillUnmount
 
