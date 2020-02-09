@@ -38,19 +38,22 @@ Old Component life cycle methods
 3. componentWillUpdate => getSnapshotBeforeUpdate
 
 #### New Component life cycle methods
-Initial Rendering Phase (Mount Phase)
+
+##### Initial Rendering Phase (Mount Phase)
 
 1. constructor
 2. static getDrivedStateFromProps
 3. render
 4. componentDidMount
-   re rendering Phase (Updating Phase)
+
+##### re rendering Phase (Updating Phase)
 5. static getDrivedStateFromProps
 6. shouldComponentUpdate
 7. render
 8. getSnapshotBeforeUpdate
 9. componentDidUpdate
-   Unmounting Phase
+
+#####  Unmounting Phase
 10. componentWillUnmount
 
 ### static getDrivedStateFromProps()
