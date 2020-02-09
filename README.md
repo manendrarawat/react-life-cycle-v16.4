@@ -2,28 +2,33 @@
 
 There are three different phases of React component’s lifecycle:
 
-1. Initial Rendering Phase: This is the phase when the component is about to start its life journey and make its way to the DOM.
-2. Updating Phase: Once the component gets added to the DOM, it can potentially update and re-render only when a prop or state change occurs. That happens only in this phase.
-3. Unmounting Phase: This is the final phase of a component’s life cycle in which the component is destroyed and removed from the DOM.
+#### 1. Initial Rendering Phase:
+This is the phase when the component is about to start its life journey and make its way to the DOM.
+#### 2. Updating Phase: 
+Once the component gets added to the DOM, it can potentially update and re-render only when a prop or state change occurs. That happens only in this phase.
+#### 3. Unmounting Phase: 
+This is the final phase of a component’s life cycle in which the component is destroyed and removed from the DOM.
 
 ### Q. Explain the lifecycle methods of React components in detail?
 
 Old Component life cycle methods
-Initial Rendering Phase (Mount Phase)
+
+#### Initial Rendering Phase (Mount Phase)
 
 1. constructor
 2. componentWillMount
 3. render
 4. componentDidMount
 
-   Updating Phase
+#### Updating Phase
 5. componentWillRecieveProps
 6. shouldComponentUpdate
 7. componentWillUpdate
 8. render
 9. componentDidUpdate
 
-   Unmounting Phase
+
+#### Unmounting Phase
 10. componentWillUnmount
 
 #### Depreceated methods in v16.4.0
