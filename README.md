@@ -50,7 +50,7 @@ Old Component life cycle methods
 5. static getDrivedStateFromProps
 6. shouldComponentUpdate
 7. render
-8. getSnapshotBeforeUpdate
+8. getSnapshotBeforeUpdate.      getSnapshotBeforeUpdate(prevProps, prevState){}
 9. componentDidUpdate
 
 #####  Unmounting Phase
