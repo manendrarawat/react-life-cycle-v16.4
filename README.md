@@ -42,7 +42,7 @@ Old Component life cycle methods
 ##### Initial Rendering Phase (Mount Phase)
 
 1. constructor
-2. static getDrivedStateFromProps
+2. static getDrivedStateFromProps    static getDerivedStateFromProps(nextProps, prevState) {}
 3. render
 4. componentDidMount
 
