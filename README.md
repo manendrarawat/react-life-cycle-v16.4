@@ -65,9 +65,8 @@ This method is replacement of componentWillRecieveProps which is going to deprec
 Ans. Because we don’t want user to use this keyword inside it. Since static method are class method not instance method we don’t need this keyword to access this method. As the name suggest this method return new state based on props action. So it will protect you from doing all kind of mistake like this.setState inside this method.
 
 
-#### Life cycle methods of react hooks
-
-##### useEffect 
+### Life cycle methods of react hooks
+#### useEffect 
 useEffect is replacement of (componentDidMount, componentDidUpdate, componentWillUnmount)
 
 
