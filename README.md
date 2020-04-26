@@ -69,5 +69,8 @@ Ans. Because we don’t want user to use this keyword inside it. Since static me
 #### useEffect 
 useEffect is replacement of (componentDidMount, componentDidUpdate, componentWillUnmount)
 
+#### useMemo
+useEffect is replacement of (shouldComponentUpdate)
+
 
 ![Screenshot](react-life-cycle.png)
