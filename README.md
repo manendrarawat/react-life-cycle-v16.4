@@ -21,7 +21,7 @@ Old Component life cycle methods
 4. componentDidMount
 
 #### Updating Phase
-5. componentWillRecieveProps
+5. componentWillRecieveProps | componentWillUpdate(nextProps, nextState)
 6. shouldComponentUpdate
 7. componentWillUpdate
 8. render
