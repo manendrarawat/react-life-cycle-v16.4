@@ -51,7 +51,7 @@ Old Component life cycle methods
 6. shouldComponentUpdate        shouldComponentUpdate(nextProps, nextState){}
 7. render
 8. getSnapshotBeforeUpdate      getSnapshotBeforeUpdate(prevProps, prevState){}
-9. componentDidUpdate
+9. componentDidUpdate.          componentDidUpdate(prevProps, prevState, snapshot)
 
 #####  Unmounting Phase
 10. componentWillUnmount
