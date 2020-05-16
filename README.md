@@ -21,11 +21,11 @@ Old Component life cycle methods
 4. componentDidMount
 
 #### Updating Phase
-5. componentWillRecieveProps | componentWillUpdate(nextProps, nextState)
-6. shouldComponentUpdate
-7. componentWillUpdate
+5. componentWillRecieveProps(nextProps)
+6. shouldComponentUpdate(nextProps, nextState)
+7. componentWillUpdate(nextProps, nextState)
 8. render
-9. componentDidUpdate
+9. componentDidUpdate(prevProps, prevState)
 
 
 #### Unmounting Phase
